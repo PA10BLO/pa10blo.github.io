@@ -411,6 +411,26 @@ body.dark {
     border: 2.5px solid var(--primary-color);
 }
 
+.navbar {
+    display: flex;
+    gap: 1em;
+    background-color: var(--bg-card-color);
+    padding: 1em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+.navbar a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar a:hover {
+    color: var(--primary-color);
+}
+
 /*NO-MARGIN RESET*/
 
 .no-margin{
