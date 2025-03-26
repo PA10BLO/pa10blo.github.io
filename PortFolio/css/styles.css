@@ -43,8 +43,7 @@ body.dark {
 .header {
     display: flex;
     align-items: center;
-    align-self: center;
-    justify-content: space-between;
+    justify-content: center;
     height: 75px;
     padding: 0 1.5em;
     background-color: var(--bg-card-color);
