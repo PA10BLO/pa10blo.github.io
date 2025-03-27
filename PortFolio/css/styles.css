@@ -423,7 +423,6 @@ body.dark {
     border: 2px solid var(--border-button-color);
     color: var(--border-button-color);
     font-weight: bold;
-    padding: 0.8em 1.5em;
 }
 
 .navbar {
