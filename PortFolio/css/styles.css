@@ -412,6 +412,16 @@ body.dark {
     border: 2.5px solid var(--primary-color);
 }
 
+.button--cv{
+    display: inline-block;
+    background-color: transparent;
+    border-radius: var(--primary-color);
+    border: 2px solid var(--border-button-color);
+    color: var(--border-button-color);
+    font-weight: bold;
+    padding: 0.8em 1.5em;
+}
+
 .navbar {
     display: flex;
     gap: 1em;
@@ -484,35 +494,6 @@ body.dark {
 }
 
 /** FOOTER BUTTONS **/
-
-.donwload_button {
-    display: inline-block;
-    padding: 0.8em 1.5em; /* Espaciado interno */
-    text-align: center;
-    color: white;
-    font-weight: bold; /* Negrita */
-    transition: transform 0.2s ease-in-out, background-color 0.3s ease-in-out; /* Transiciones suaves */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
-    justify-content: center;
-    border-radius: var(--border-radius);
-    border: 20px --primary-color;
-    display: flex;
-}
-
-/* .button--cv{
-    text-align: center;
-    background-color: transparent;
-    color: white;
-    background-color: transparent;
-    transition: var(--transition);
-}
- */
-
-.donwload_button:hover/* , .button--cv:hover  */{
-    transform: scale(0.7); /* Aumenta ligeramente el tamaño al pasar el cursor */
-    background-color: --text-color; /* Cambia el fondo al pasar el cursor */
-    color: var(--primary-color); /* Cambia el color del texto al color principal */
-}
 
 .footer_button {
     display: flex;
