@@ -5,7 +5,7 @@
     --text-color: hsl(0, 0%, 31%);
     --bg-color: hsl(0, 0%, 90%);
     --bg-card-color: hsl(0, 0%, 98%);
-    --border-button-color: solid white;
+    --border-button-color: white;
     --transition: color 0.1s, background-color 0.2s ease-in-out;
     --border-radius: /*border-radius*/0.4em;
     --skills-bar-lenght: 0%;
@@ -390,7 +390,7 @@ body.dark {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: var(--border-radius); /* Bordes redondeados */
     border: 20px solid white;
-    background-color: transparent;
+    background-color: --primary-color;
 }
 
 .button:hover {
