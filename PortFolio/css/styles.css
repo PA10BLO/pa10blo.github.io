@@ -445,20 +445,6 @@ body.dark {
     margin-right: auto; /* Centra horizontalmente */
 }
 
-.footer_highlight {
-    display: block; /* Asegura que el título esté en su propia línea */
-    font-weight: bold; /* Negrita para destacar */
-    text-align: center; /* Centra el título */
-}
-
-.footer_message-text {
-    max-width: 600px; /* Set the maximum width */
-    margin: 0 auto; /* Center the text horizontally */
-    text-align: center; /* Ensure the text is centered */
-    font-size: 0.9rem; /* Adjust the font size if needed */
-    line-height: 1.5; /* Improve readability */
-}
-
 .footer_content {
     width: 50%; /* Asegura que ocupe todo el ancho disponible */
     text-align: center; /* Centra el texto dentro del contenido */
@@ -476,6 +462,18 @@ body.dark {
 
 .footer_message {
     text-align: left; /* Alinea el texto a la izquierda */
+}
+
+.footer_highlight {
+    display: block; /* Asegura que el título esté en su propia línea */
+    font-weight: bold; /* Negrita para destacar */
+    text-align: center; /* Centra el título */
+}
+
+.footer_message-text {
+    max-width: 600px; /* Set the maximum width */
+    text-align: center; /* Ensure the text is centered */
+    line-height: 1.5; /* Improve readability */
 }
 
 .footer_contact {
