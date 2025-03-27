@@ -173,11 +173,20 @@ body.dark {
     margin-right: 1em;
     float: left;
 }
+
 .icon_skill{
     width: 20px;
     height: 20px;
     margin-right: 0.2em;
     float: left;
+}
+
+.card-profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    height: 50%;
 }
 
 .card_image-container{
