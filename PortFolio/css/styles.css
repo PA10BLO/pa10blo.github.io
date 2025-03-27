@@ -497,14 +497,4 @@ body.dark {
         flex-direction: column;
         gap: 0.5em;
     }
-
-    .footer_message-container {
-        flex-direction: column; /* Cambia a diseño vertical */
-        align-items: center; /* Centra los elementos */
-        text-align: center; /* Centra el texto */
-    }
-
-    .footer_contact {
-        text-align: center; /* Centra el texto en pantallas pequeñas */
-    }
 }
