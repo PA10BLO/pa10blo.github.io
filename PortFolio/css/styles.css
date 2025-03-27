@@ -450,6 +450,19 @@ body.dark {
     text-align: center; /* Centra el texto dentro del contenido */
 }
 
+.footer_message-container {
+    display: flex;
+    justify-content: space-between; /* Espacia los elementos horizontalmente */
+    align-items: flex-start; /* Alinea los elementos al inicio verticalmente */
+    gap: 2em; /* Espaciado entre las columnas */
+    margin-bottom: 1.5em; /* Espaciado inferior */
+    width: 100%;
+}
+
+.footer_message {
+    text-align: left; /* Alinea el texto a la izquierda */
+}
+
 .footer_contact {
     text-align: right; /* Alinea el texto a la izquierda */
 }
@@ -483,5 +496,15 @@ body.dark {
     .footer_links {
         flex-direction: column;
         gap: 0.5em;
+    }
+
+    .footer_message-container {
+        flex-direction: column; /* Cambia a diseño vertical */
+        align-items: center; /* Centra los elementos */
+        text-align: center; /* Centra el texto */
+    }
+
+    .footer_contact {
+        text-align: center; /* Centra el texto en pantallas pequeñas */
     }
 }
