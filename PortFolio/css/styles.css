@@ -45,7 +45,6 @@ body.dark {
     align-items: center;
     justify-content: center;
     height: 75px;
-    padding: 0 1.5em;
     background-color: var(--bg-card-color);
     transition: var(--transition);
 }
@@ -460,7 +459,7 @@ body.dark {
 .footer_link {
     color: var(--primary-color);
     text-decoration: none;
-    font-weight: 600;
+    font-weight: bold;
     transition: color 0.3s ease-in-out;
 }
 
