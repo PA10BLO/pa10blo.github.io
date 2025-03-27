@@ -470,16 +470,18 @@ body.dark {
     align-items: flex-start; /* Alinea los elementos al inicio verticalmente */
     gap: 2em; /* Espaciado entre las columnas */
     margin-bottom: 1.5em; /* Espaciado inferior */
-    width: 50%;
-    justify-content: space-between
+    width: 100%;
+    justify-content: center
 }
 
 .footer_message {
     text-align: left; /* Alinea el texto a la izquierda */
+    max-width: 45%; /* Limita el ancho máximo de la sección izquierda */
 }
 
 .footer_contact {
     text-align: left; /* Alinea el texto a la izquierda */
+    max-width: 45%; /* Limita el ancho máximo de la sección izquierda */
 }
 
 .footer_links {
