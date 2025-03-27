@@ -444,6 +444,7 @@ body.dark {
     justify-content: center; /* Centra verticalmente si es necesario */
     margin-left: auto; /* Centra horizontalmente */
     margin-right: auto; /* Centra horizontalmente */
+    margin-bottom: 20px;
 }
 
 .footer_content {
