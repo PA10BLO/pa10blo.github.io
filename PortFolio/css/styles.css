@@ -443,6 +443,8 @@ body.dark {
     flex-direction: column; /* Asegura que los elementos estén en columna */
     align-items: center; /* Centra horizontalmente los elementos */
     justify-content: center; /* Centra verticalmente si es necesario */
+    margin-left: auto; /* Centra horizontalmente */
+    margin-right: auto; /* Centra horizontalmente */
 }
 
 .footer_content {
