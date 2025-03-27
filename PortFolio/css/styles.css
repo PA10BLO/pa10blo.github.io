@@ -451,9 +451,18 @@ body.dark {
     text-align: center; /* Centra el título */
 }
 
+.footer_message-text {
+    max-width: 600px; /* Set the maximum width */
+    margin: 0 auto; /* Center the text horizontally */
+    text-align: center; /* Ensure the text is centered */
+    font-size: 0.9rem; /* Adjust the font size if needed */
+    line-height: 1.5; /* Improve readability */
+}
+
 .footer_content {
-    width: 100%; /* Asegura que ocupe todo el ancho disponible */
+    width: 50%; /* Asegura que ocupe todo el ancho disponible */
     text-align: center; /* Centra el texto dentro del contenido */
+    justify-content: center; /* Centra verticalmente si es necesario */
 }
 
 .footer_message-container {
