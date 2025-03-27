@@ -497,6 +497,7 @@ body.dark {
     justify-content: center;
     border-radius: var(--border-radius);
     border: 20px --primary-color;
+    color: white;
 }
 
 /* .button--cv{
@@ -509,10 +510,9 @@ body.dark {
  */
 
 .donwload_button:hover/* , .button--cv:hover  */{
-    transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el cursor */
-    background-color: white; /* Cambia el fondo al pasar el cursor */
+    transform: scale(0.7); /* Aumenta ligeramente el tamaño al pasar el cursor */
+    background-color: --text-color; /* Cambia el fondo al pasar el cursor */
     color: var(--primary-color); /* Cambia el color del texto al color principal */
-    border-color: var(--primary-color); /* Cambia el color del borde */
 }
 
 .footer_button {
