@@ -492,6 +492,7 @@ body.dark {
     font-size: 1rem; /* Tamaño del texto */
     font-weight: bold; /* Negrita */
     background-color: transparent;
+    color: solid white; /* Color del texto */
     border-radius: var(--border-radius); /* Bordes redondeados */
     border: 2px --border-button-color;
     transition: transform 0.2s ease-in-out, background-color 0.3s ease-in-out; /* Transiciones suaves */
