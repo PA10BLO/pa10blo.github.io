@@ -482,6 +482,18 @@ body.dark {
 
 /** FOOTER BUTTONS **/
 
+.donwload_button {
+    display: inline-block;
+    padding: 0.8em 1.5em; /* Espaciado interno */
+    text-align: center;
+    text-decoration: none; /* Elimina el subrayado */
+    font-size: 1rem; /* Tamaño del texto */
+    font-weight: bold; /* Negrita */
+    border-radius: var(--border-radius); /* Bordes redondeados */
+    transition: transform 0.2s ease-in-out, background-color 0.3s ease-in-out; /* Transiciones suaves */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
 .footer_button {
     display: flex;
     align-items: center;
