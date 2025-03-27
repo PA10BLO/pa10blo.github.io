@@ -5,6 +5,7 @@
     --text-color: hsl(0, 0%, 31%);
     --bg-color: hsl(0, 0%, 90%);
     --bg-card-color: hsl(0, 0%, 98%);
+    --border-button-color: white;
     --transition: color 0.1s, background-color 0.2s ease-in-out;
     --border-radius: /*border-radius*/0.4em;
     --skills-bar-lenght: 0%;
@@ -489,9 +490,12 @@ body.dark {
     text-decoration: none; /* Elimina el subrayado */
     font-size: 1rem; /* Tamaño del texto */
     font-weight: bold; /* Negrita */
+    background-color: var(--bg-card-color); /* Color de fondo */
     border-radius: var(--border-radius); /* Bordes redondeados */
+    border: 2px --border-button-color;
     transition: transform 0.2s ease-in-out, background-color 0.3s ease-in-out; /* Transiciones suaves */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+    justify-content: center
 }
 
 .footer_button {
@@ -501,6 +505,7 @@ body.dark {
     width: 50px; /* Tamaño del botón */
     height: 50px; /* Tamaño del botón */
     background-color: var(--bg-card-color); /* Color de fondo */
+    border: 2px --border-button-color;
     border-radius: 50%; /* Hace el botón circular */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para darle profundidad */
     transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out; /* Transiciones suaves */
