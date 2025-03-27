@@ -412,23 +412,6 @@ body.dark {
     border: 2.5px solid var(--primary-color);
 }
 
-.button--cv{
-    text-align: center;
-    background-color: transparent;
-    color: white; /* Color del texto */
-    background-color: transparent;
-    border-radius: var(--border-radius);
-    border: 20px --primary-color;
-    transition: var(--transition);
-}
-
-.button--cv:hover {
-    transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el cursor */
-    background-color: white; /* Cambia el fondo al pasar el cursor */
-    color: var(--primary-color); /* Cambia el color del texto al color principal */
-    border-color: var(--primary-color); /* Cambia el color del borde */
-}
-
 .navbar {
     display: flex;
     gap: 1em;
@@ -511,7 +494,25 @@ body.dark {
     font-weight: bold; /* Negrita */
     transition: transform 0.2s ease-in-out, background-color 0.3s ease-in-out; /* Transiciones suaves */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
-    justify-content: center
+    justify-content: center;
+    border-radius: var(--border-radius);
+    border: 20px --primary-color;
+}
+
+/* .button--cv{
+    text-align: center;
+    background-color: transparent;
+    color: white;
+    background-color: transparent;
+    transition: var(--transition);
+}
+ */
+
+.donwload_button:hover/* , .button--cv:hover  */{
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el cursor */
+    background-color: white; /* Cambia el fondo al pasar el cursor */
+    color: var(--primary-color); /* Cambia el color del texto al color principal */
+    border-color: var(--primary-color); /* Cambia el color del borde */
 }
 
 .footer_button {
