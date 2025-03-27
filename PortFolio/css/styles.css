@@ -415,7 +415,6 @@ body.dark {
 
 .button--cv{
     display: inline-block;
-    text-align: center;
     align-items: center;
     justify-content: center;
     background-color: transparent;
@@ -423,6 +422,7 @@ body.dark {
     border: 2px solid var(--border-button-color);
     color: var(--border-button-color);
     font-weight: bold;
+    padding: 0.8em 1.5em;
 }
 
 .navbar {
@@ -497,6 +497,14 @@ body.dark {
 }
 
 /** FOOTER BUTTONS **/
+
+.donwload_button {
+    display: flex; /* Activa Flexbox */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    width: 100%; /* Asegura que ocupe todo el ancho disponible */
+    margin-top: 1em; /* Añade un margen superior opcional */
+}
 
 .footer_button {
     display: flex;
