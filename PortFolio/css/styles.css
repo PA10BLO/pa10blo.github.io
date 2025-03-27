@@ -381,13 +381,15 @@ body.dark {
     }
 }
 
-.button{
+.button {
     width: 100px;
     line-height: 2.5;
     text-align: center;
     border-radius: var(--border-radius);
     transition: var(--transition);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: var(--border-radius); /* Bordes redondeados */
+    border: 20px solid white;
 }
 
 .button:hover {
@@ -413,8 +415,6 @@ body.dark {
 
 .button--cv{
     background-color: transparent;
-    border-radius: var(--border-radius); /* Bordes redondeados */
-    border: 2px --border-button-color;
     color: solid white; /* Color del texto */
 }
 
