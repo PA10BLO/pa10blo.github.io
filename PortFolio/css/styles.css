@@ -418,8 +418,15 @@ body.dark {
     color: white; /* Color del texto */
     background-color: transparent;
     border-radius: var(--border-radius);
-    border: 20px solid white;
+    border: 20px --primary-color;
     transition: var(--transition);
+}
+
+.button--cv:hover {
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el cursor */
+    background-color: white; /* Cambia el fondo al pasar el cursor */
+    color: var(--primary-color); /* Cambia el color del texto al color principal */
+    border-color: var(--primary-color); /* Cambia el color del borde */
 }
 
 .navbar {
