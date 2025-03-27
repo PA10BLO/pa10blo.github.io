@@ -5,7 +5,7 @@
     --text-color: hsl(0, 0%, 31%);
     --bg-color: hsl(0, 0%, 90%);
     --bg-card-color: hsl(0, 0%, 98%);
-    --border-button-color: white;
+    --border-button-color: solid white;
     --transition: color 0.1s, background-color 0.2s ease-in-out;
     --border-radius: /*border-radius*/0.4em;
     --skills-bar-lenght: 0%;
@@ -515,6 +515,7 @@ body.dark {
 .footer_button:hover, .donwload_button:hover {
     transform: scale(1.1); /* Aumenta ligeramente el tamaño al pasar el cursor */
     background-color: var(--text-color); /* Cambia el color de fondo al pasar el cursor */
+    border-color: var(--primary-color);
 }
 
 .footer_button-icon, .donwload_button-icon {
