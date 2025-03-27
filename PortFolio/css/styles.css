@@ -456,7 +456,7 @@ body.dark {
     gap: 2em; /* Espaciado entre las columnas */
     margin-bottom: 1.5em; /* Espaciado inferior */
     width: 100%;
-    justify-content: space-evenly
+    justify-content: space-between
 }
 
 .footer_message {
@@ -496,5 +496,16 @@ body.dark {
     .footer_links {
         flex-direction: column;
         gap: 0.5em;
+    }
+
+    .footer_message-container {
+        flex-direction: column; /* Cambia a diseño vertical */
+        align-items: center; /* Centra los elementos */
+        text-align: center; /* Centra el texto */
+    }
+
+    .footer_message, .footer_contact {
+        max-width: 100%; /* Asegura que ocupen todo el ancho disponible */
+        text-align: center; /* Centra el texto */
     }
 }
