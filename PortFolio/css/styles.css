@@ -448,7 +448,6 @@ body.dark {
 .footer_highlight {
     display: block; /* Asegura que el título esté en su propia línea */
     font-weight: bold; /* Negrita para destacar */
-    color: var(--primary-color); /* Color destacado */
     text-align: center; /* Centra el título */
 }
 
@@ -462,7 +461,7 @@ body.dark {
     align-items: flex-start; /* Alinea los elementos al inicio verticalmente */
     gap: 2em; /* Espaciado entre las columnas */
     margin-bottom: 1.5em; /* Espaciado inferior */
-    width: 100%;
+    width: 50%;
     justify-content: space-between
 }
 
