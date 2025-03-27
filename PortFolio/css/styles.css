@@ -448,6 +448,7 @@ body.dark {
 .footer_content {
     width: 100%; /* Asegura que ocupe todo el ancho disponible */
     text-align: center; /* Centra el texto dentro del contenido */
+    justify-content: space-evenly
 }
 
 .footer_message-container {
