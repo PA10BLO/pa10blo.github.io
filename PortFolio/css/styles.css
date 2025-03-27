@@ -453,7 +453,7 @@ body.dark {
 
 .footer_message-container {
     display: flex;
-    align-items: flex-start; /* Alinea los elementos al inicio verticalmente */
+    align-items: center; /* Alinea los elementos al inicio verticalmente */
     gap: 2em; /* Espaciado entre las columnas */
     margin-bottom: 1.5em; /* Espaciado inferior */
     width: 100%;
