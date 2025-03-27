@@ -411,6 +411,13 @@ body.dark {
     border: 2.5px solid var(--primary-color);
 }
 
+.button--cv{
+    background-color: transparent;
+    border-radius: var(--border-radius); /* Bordes redondeados */
+    border: 2px --border-button-color;
+    color: solid white; /* Color del texto */
+}
+
 .navbar {
     display: flex;
     gap: 1em;
@@ -491,10 +498,6 @@ body.dark {
     text-decoration: none; /* Elimina el subrayado */
     font-size: 1rem; /* Tamaño del texto */
     font-weight: bold; /* Negrita */
-    background-color: transparent;
-    color: solid white; /* Color del texto */
-    border-radius: var(--border-radius); /* Bordes redondeados */
-    border: 2px --border-button-color;
     transition: transform 0.2s ease-in-out, background-color 0.3s ease-in-out; /* Transiciones suaves */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
     justify-content: center
