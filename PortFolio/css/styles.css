@@ -388,9 +388,8 @@ body.dark {
     border-radius: var(--border-radius);
     transition: var(--transition);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border-radius: var(--border-radius); /* Bordes redondeados */
     border: 20px solid white;
-    background-color: --primary-color;
+    background-color: transparent;
 }
 
 .button:hover {
@@ -417,6 +416,8 @@ body.dark {
 .button--cv{
     background-color: transparent;
     color: white; /* Color del texto */
+    background-color: transparent;
+    border-radius: var(--border-radius);
 }
 
 .navbar {
