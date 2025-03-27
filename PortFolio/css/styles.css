@@ -509,7 +509,7 @@ body.dark {
     transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out; /* Transiciones suaves */
 }
 
-.footer_button:hover, .donwload_button:hover {
+.footer_button:hover {
     transform: scale(1.1); /* Aumenta ligeramente el tamaño al pasar el cursor */
     background-color: var(--text-color); /* Cambia el color de fondo al pasar el cursor */
     border-color: var(--primary-color);
