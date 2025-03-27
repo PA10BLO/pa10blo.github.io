@@ -450,6 +450,10 @@ body.dark {
     text-align: center; /* Centra el texto dentro del contenido */
 }
 
+.footer_contact {
+    text-align: right; /* Alinea el texto a la izquierda */
+}
+
 .footer_links {
     display: flex;
     justify-content: center; /* Centra los enlaces horizontalmente */
