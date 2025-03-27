@@ -489,15 +489,14 @@ body.dark {
     display: inline-block;
     padding: 0.8em 1.5em; /* Espaciado interno */
     text-align: center;
-    text-decoration: none; /* Elimina el subrayado */
-    font-size: 1rem; /* Tamaño del texto */
+    color: white;
     font-weight: bold; /* Negrita */
     transition: transform 0.2s ease-in-out, background-color 0.3s ease-in-out; /* Transiciones suaves */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
     justify-content: center;
     border-radius: var(--border-radius);
     border: 20px --primary-color;
-    color: white;
+    display: flex;
 }
 
 /* .button--cv{
