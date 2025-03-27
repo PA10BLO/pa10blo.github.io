@@ -382,7 +382,6 @@ body.dark {
 }
 
 .button {
-    width: 100px;
     line-height: 2.5;
     text-align: center;
     border-radius: var(--border-radius);
@@ -404,12 +403,14 @@ body.dark {
 .button--primary{
     background-color: var(--primary-color);
     color: var(--bg-color);
+    width: 100px;
 }
 
 .button--ghost{
     background-color: transparent;
     color: var(--primary-color);
     border: 2.5px solid var(--primary-color);
+    width: 100px;
 }
 
 .button--cv{
