@@ -435,7 +435,6 @@ body.dark {
 .footer {
     background-color: var(--bg-card-color);
     color: var(--text-color);
-    padding: 1.5em 1em;
     text-align: center;
     border-top: 2px solid var(--primary-color);
     margin-top: 2em;
@@ -448,7 +447,6 @@ body.dark {
 }
 
 .footer_content {
-    max-width: 1200px;
     width: 100%; /* Asegura que ocupe todo el ancho disponible */
     text-align: center; /* Centra el texto dentro del contenido */
 }
