@@ -3902,7 +3902,7 @@ img.u-pull-left {
     position      : relative;
 }
 
-.testimonial-slider__avatar {
+.certificate_images {
     width         : var(--vspace-1_75);
     height        : var(--vspace-1_75);
     border-radius : 100%;
