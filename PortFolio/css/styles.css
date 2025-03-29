@@ -3913,17 +3913,6 @@ img.u-pull-left {
     transition    : all 0.3s ease-in-out;
 }
 
-.certificate_images_udemy {
-    width         : var(--vspace-1_75);
-    height        : var(--vspace-1_75);
-    border-radius : 15%;
-    outline       : none;
-    position      : absolute;
-    top           : 0;
-    left          : 0;
-    transition    : all 0.3s ease-in-out;
-}
-
 .acreditions-slider__cite {
     display : block;
 }
