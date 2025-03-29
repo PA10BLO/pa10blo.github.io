@@ -3885,6 +3885,7 @@ img.u-pull-left {
     border: 2px solid transparent; /* Borde inicial transparente */
     border-radius: 10px; /* Bordes redondeados */
     cursor: pointer;
+    background-color: solid white
 }
 
 .acreditions-slider__card-link {
@@ -3895,13 +3896,14 @@ img.u-pull-left {
     width: 100%;
 }
 
-.acreditions-slider__slide:hover .certificate_images {
+.acreditions-slider__slide:hover{
     transform: scale(1.1); /* Agranda la imagen ligeramente */
     transition: transform 0.3s ease-in-out; /* Transición suave */
+    border: 2px solid var(--primary-color);
 }
 
 .acreditions-slider__slide:hover .acreditions-slider__avatar {
-    transform: scale(1.05); /* Agranda la tarjeta */
+    transform: scale(1.2); /* Agranda la tarjeta */
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Añade una sombra */
     border: 2px solid var(--primary-color); /* Cambia el borde al color principal */
 }
