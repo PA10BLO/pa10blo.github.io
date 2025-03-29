@@ -3884,6 +3884,7 @@ img.u-pull-left {
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Transiciones suaves */
     border: 2px solid transparent; /* Borde inicial transparente */
     border-radius: 10px; /* Bordes redondeados */
+    cursor: pointer;
 }
 
 .acreditions-slider__card-link {
