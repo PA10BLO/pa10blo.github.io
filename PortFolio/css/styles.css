@@ -3923,9 +3923,13 @@ img.u-pull-left {
     left          : 0;
     transition    : all 0.3s ease-in-out;
 }
+ 
+.acreditions-slider__author {
+    text-align : center;
+}
 
 .acreditions-slider__cite {
-    text-align: center;
+    display : block;
 }
 
 .acreditions-slider__cite strong,
