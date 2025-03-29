@@ -3923,10 +3923,6 @@ img.u-pull-left {
     left          : 0;
     transition    : all 0.3s ease-in-out;
 }
- 
-.acreditions-slider__author {
-    text-align : center;
-}
 
 .acreditions-slider__cite {
     display : block;
