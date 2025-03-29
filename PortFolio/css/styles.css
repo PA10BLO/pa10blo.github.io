@@ -3902,6 +3902,13 @@ img.u-pull-left {
     position      : relative;
 }
 
+.accreditation_bodies_names:hover {
+    transform       : scale(1.1);
+    border          : 2px var(--color-1);
+    border-radius   : 50%; 
+    box-shadow      : 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
 .certificate_images {
     width         : var(--vspace-3);
     height        : var(--vspace-1_75);
