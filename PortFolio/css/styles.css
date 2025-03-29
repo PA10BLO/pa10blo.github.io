@@ -3949,9 +3949,9 @@ img.u-pull-left {
     color       : var(--color-text-light);
 }
 
-.acreditions-slider__cite--widthmode {
+/* .acreditions-slider__cite--widthmode {
     padding-left: 3rem;
-}
+} */
 
 /* ------------------------------------------------------------------- 
  * responsive:
