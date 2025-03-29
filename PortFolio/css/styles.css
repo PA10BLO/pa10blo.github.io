@@ -3880,14 +3880,13 @@ img.u-pull-left {
  * ------------------------------------------------------------------- */
 .acreditions-slider__slide {
     position : relative;
+}
+
+.acreditions-slider__slide:hover .acreditions-slider__avatar {
     transform       : scale(1.1);
     border          : 2px var(--color-1);
     border-radius   : 50%; 
     box-shadow      : 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.acreditions-slider__slide:hover .acreditions-slider__avatar {
-    filter : none;
 }
 
 .acreditions-slider__slide:hover .acreditions-slider__cite strong {
