@@ -3926,6 +3926,8 @@ img.u-pull-left {
 
 .acreditions-slider__cite {
     display : block;
+    text-align: center;
+    padding-left: 3rem;
 }
 
 .acreditions-slider__cite strong,
